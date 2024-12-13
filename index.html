@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tornar o site responsivo -->
+  <title>Book Bliss</title> <!-- Título da página -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Link para os ícones do Bootstrap -->
+  <link rel="icon" href="images/sss-removebg-preview.png" type="image/x-icon"> <!-- Favicon -->
+  <link rel="stylesheet" href="styles/styles.css"> <!-- Arquivo CSS para o estilo da página -->
+  
+  <!-- Link para o script JavaScript - Não excluir -->
+  <script type="module" src="./scripts/home.js" defer></script> <!-- Script JavaScript para funcionalidades da página -->
+</head>
+<body>
+
+  <header>
+    <div class="conteiner-logo">
+        <img src="images/book Blis.png" alt="Logo Book Bliss"> <!-- Logo da loja -->
+    </div>
+
+    <!-- Barra de pesquisa -->
+    <div class="search_bar">
+        <i class="bi bi-search"></i> <!-- Ícone de pesquisa -->
+        <input type="text" name="" id="" placeholder="O que voce procura?"> <!-- Campo de pesquisa -->
+    </div>
+
+    <!-- Navegação do site -->
+    <nav>
+      <ul>
+          <li><a href="index.html"><i class="bi bi-house"></i></a></li> <!-- Link para a página inicial -->
+          <li><a href="products.html"><i class="bi bi-book"></i></a></li> <!-- Link para produtos -->
+          <li><a href="sobre.html"><i class="bi bi-journal-bookmark"></i></a></li> <!-- Link para a página sobre -->
+          <li><a href="checkout.html"><i class="bi bi-cart"></i></a></li> <!-- Link para o checkout -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu de navegação adicional -->
+  <nav class="header-navbar" id="navbar">
+    <ul class="container">
+        <li>Romance</li>
+        <li>Fantasia</li>
+        <li>Terror</li>
+        <li>Comédia</li>
+        <li>Suspense</li>
+    </ul>
+  </nav>
+
+  <main>
+    <div>
+        <img src="images/banner.png" alt="banner" class="banner"> <!-- Banner principal -->
+        <h1>LANÇAMENTOS</h1> <!-- Título da seção de produtos em destaque -->
+    </div>
+
+    <!-- Carrossel de produtos -->
+    <section class="section-product">
+      <button class="prev">
+        <i class="bi bi-chevron-double-left"></i> <!-- Ícone de navegação para a esquerda -->
+      </button>
+      <section id="section-1" class="section-product-carrousel">
+        <div class="carrousel">
+          <!-- Área para inserção dos cards de produtos (dinâmica) -->
+        </div>
+      </section>
+      <button class="next">
+        <i class="bi bi-chevron-double-right"></i> <!-- Ícone de navegação para a direita -->
+      </button>
+    </section>
+  </div>
+
+  </main>
+  <div>
+    <img src="images/banner3.png" alt="banner" class="bannerr"> <!-- Banner secundário -->
+  </div>
+  <h1>DESTAQUES</h1>
+
+  <!-- Outro carrossel de produtos -->
+  <section class="section-product">
+    <button class="prev">
+      <i class="bi bi-chevron-double-left"></i> <!-- Navegação para a esquerda -->
+    </button>
+    <section id="section-2" class="section-product-carrousel">
+      <div class="carrousel">
+        <!-- Área para inserção dos cards de produtos -->
+      </div>
+    </section>
+    <button class="next">
+      <i class="bi bi-chevron-double-right"></i> <!-- Navegação para a direita -->
+    </button>
+  </section>
+
+  <div>
+    <img src="images/banner2.png" alt="banner" class="bannerr"> <!-- Banner de promoções -->
+  </div>
+  <h1>PROMOÇÕES</h1>
+
+  <!-- Componente Carrousel de Promoções -->
+  <section class="section-product">
+    <button class="prev">
+      <i class="bi bi-chevron-double-left"></i> <!-- Navegação para a esquerda -->
+    </button>
+    <section id="section-3" class="section-product-carrousel">
+      <div class="carrousel">
+        <!-- Área para inserção dos cards de promoções -->
+      </div>
+    </section>
+    <button class="next">
+      <i class="bi bi-chevron-double-right"></i> <!-- Navegação para a direita -->
+    </button>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Sobre Nós</h4> <!-- Seção "Sobre" -->
+        <p>No Book Bliss, sua paixão por livros encontra um lar. ...</p> <!-- Descrição sobre a loja -->
+      </div>
+      <div class="footer-section">
+        <h4>Contato</h4> <!-- Seção de contato -->
+        <a href="contato.html">Entre em contato</a> <!-- Link para página de contato -->
+        <br>
+        <a href="adm.html">Administrador</a> <!-- Link para administração -->
+        <p>Email: BookBliss@gmail.com</p> <!-- Informações de contato -->
+        <p>Telefone: (18) 5874-1257</p>
+      </div>
+      <div class="footer-section">
+        <h4>Redes Sociais</h4> <!-- Seção de redes sociais -->
+        <a href="#"><i class="bi bi-facebook"></i></a> <!-- Link para Facebook -->
+        <a href="#"><i class="bi bi-instagram"></i></a> <!-- Link para Instagram -->
+        <a href="#"><i class="bi bi-twitter"></i></a> <!-- Link para Twitter -->
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 BookBliss. Todos os direitos reservados.</p> <!-- Copyright -->
+    </div>
+  </footer>
+
+</body>
+</html>
